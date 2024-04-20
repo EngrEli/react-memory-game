@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.memorygame {
+  text-align: center;
+}
+
+.memorygame-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 20px 15px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+}
+
+.memorygame-button.memorygame-button__main {
+  background-color: #2196f3;
+}
+
+.memorygame-button.memorygame-button__secondary {
+  background-color: #9a9a9a;
+}
+
+.memorygame-button:hover {
+  filter: brightness(1.15);
+}
+
+.card-grid {
+  margin: 0 auto;
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.card-grid.card-grid-easy {
+  max-width: 300px;
+}
+
+.card-grid.card-grid-medium {
+  max-width: 600px;
+}
+
+.card-grid.card-grid-hard {
+  max-width: 700px;
+}
+
+.card-grid-easy {
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-grid-medium {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-grid-hard {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}

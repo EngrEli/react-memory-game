@@ -1,0 +1,13 @@
+.card {
+  border-radius: 5px;
+  background-color: #2196f3;
+}
+
+.card-inner {
+  padding: 15px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+}
